@@ -19,7 +19,7 @@ try:
 except OSError:
     f = pygame.font.Font(pygame.font.get_default_font(), 30)
     bias = 0
-my_text = MultiLineFontWrapper(f, 'This is kinda of a nice way to do the text thing,'
+my_text = MultiLineFontWrapper(f, 'This is kind of a nice way to do the text thing,'
                                   ' but I want to have more than two lines to see if there is really a '
                                   'difference!'.upper(), 30, bias=bias, done=done_callback, done_arg='self')
 
